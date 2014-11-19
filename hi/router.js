@@ -22,8 +22,3 @@ Router.route('/sales', function () {
   this.render('sales');
   this.layout('layout');
 });
-
-Router.route('/login', function () {
-  this.render('loginform');
-  this.layout('layout');
-});
