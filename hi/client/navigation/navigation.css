@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+.navbar {
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px;
+	background-color: #352171 !important;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default {
+	background: transparent;
+	border-bottom: none;
+}
+
+.navbar-inner {
+	box-shadow: none;
+	border-bottom: none;
+	background-image: none;
+}
+
+.navbar .nav > ul {
+	height: 40px;
+}
+
+.navbar .nav > li {
+	height:40px;
+	min-width: 80px;
+	margin-right: 20px;
+}
+
+.navbar .nav > li > a {
+	color: #fff;
+	height: 40px;
+	text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+	color: #f36;
+}
+
+.navbar-default {
+  min-height: 60px;
+  opacity: 1;
+  transition: opacity .5s;
+}

@@ -6,3 +6,10 @@
 meteor-platform
 autopublish
 insecure
+mizzao:bootstrap-3
+accounts-password
+accounts-ui
+accounts-ui-bootstrap-3
+iron:router
+linto:fontawesome
+

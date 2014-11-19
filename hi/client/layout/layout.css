@@ -1,0 +1,40 @@
+.main {
+	margin-top: 60px;
+	background-color: #e5e9ec;
+	min-height: 1000px;
+}
+
+/*** Main Page Content  ***/
+.page-content {  
+  margin-top: 0px;   
+  padding: 0px;
+  background-color: #e5e9ec; 
+  overflow:auto; 
+  position:relative;
+  min-height:911px;
+}
+.page-content.condensed-layout{  
+	margin-left:50px !important;
+}
+.ie8 .page-content { 
+    margin-left: 225px; 
+    margin-top: 0px;
+}
+.page-content .admin-bar {
+    -moz-box-sizing: border-box;
+    bottom: -115px;
+    position: fixed;
+    width: 100%;
+	  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.page-content .admin-bar .admin-bar-inner {
+    background: none repeat scroll 0 0 padding-box #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.08);
+    margin-right: 250px;
+    padding: 30px 35px 30px 40px;
+    text-align: right;	
+}
