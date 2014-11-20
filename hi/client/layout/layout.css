@@ -13,6 +13,23 @@
   position:relative;
   min-height:911px;
 }
+
+.page-content .content {
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 26px;
+}
+
+.page-content .content h1 {
+  font-size: 30px;
+  color: #505458;
+}
+
+.page-header {
+  margin: 0px;
+  border-bottom: none;
+}
+
 .page-content.condensed-layout{  
 	margin-left:50px !important;
 }

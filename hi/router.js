@@ -22,3 +22,13 @@ Router.route('/sales', function () {
   this.render('sales');
   this.layout('layout');
 });
+
+Router.route('/visitors/heatmap', function () {
+  this.render('heatmap');
+  this.layout('layout');
+});
+
+Router.route('/visitors/stats', function () {
+  this.render('visitorstats');
+  this.layout('layout');
+});
